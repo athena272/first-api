@@ -11,7 +11,6 @@ function listUsers(req, res) {
     })
 
     res.send(200, sortedUsers)
-
 }
 
 function getUserById(req, res) {
