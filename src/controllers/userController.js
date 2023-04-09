@@ -28,7 +28,24 @@ function getUserById(req, res) {
 }
 
 function createUser(req, res) {
-    
+    let body = ''
+
+    req.on('data', (chunk) => {
+        body += chunk
+    })
+
+    req.on('end', () => {
+        body = JSON.parse(body)
+
+        const lastUserId = users[users.length - 1].id
+        const newUser = {
+            id: lastUserId + 1,
+            name: body.name
+        }
+
+        users.push(newUser)
+        res.send(200, newUser)
+    })
 }
 
 module.exports = { listUsers, getUserById, createUser }
