@@ -21,10 +21,9 @@ function getUserById(req, res) {
     if (!user) {
         res.send(400, { errorMessage: 'User not found' })
 
-    } else {
-        res.send(200, user)
-
     }
+
+    res.send(200, user)
 }
 
 function createUser(req, res) {
