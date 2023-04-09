@@ -27,4 +27,8 @@ function getUserById(req, res) {
     }
 }
 
-module.exports = { listUsers, getUserById }
+function createUser(req, res) {
+    
+}
+
+module.exports = { listUsers, getUserById, createUser }
