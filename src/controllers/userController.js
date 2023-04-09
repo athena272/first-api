@@ -16,4 +16,8 @@ function listUsers(req, res) {
     res.end(JSON.stringify(sortedUsers))
 }
 
-module.exports = { listUsers }
+function getUserById(req, res) {
+
+}
+
+module.exports = { listUsers, getUserByIdA  }
