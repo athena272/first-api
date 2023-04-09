@@ -13,8 +13,9 @@ const server = http.createServer((req, res) => {
     const splitEndpoint = pathname.split('/').filter(Boolean)
 
     if (splitEndpoint.length > 1) {
-        pathname = `${splitEndpoint[0]}/:id}`
-        id = splitEndpoint[1    ]
+        pathname = `/${splitEndpoint[0]}/:id`
+        id = splitEndpoint[1]
+        console.log(pathname)
     }
 
     const route = routes.find((routeObj) => routeObj.method === req.method && routeObj.endpoint === pathname)
@@ -27,7 +28,7 @@ const server = http.createServer((req, res) => {
         res.writeHead(404, {
             'Content-Type': 'text/html'
         })
-        res.end(`Cannot ${req.url}`)
+        res.end(`Cannot ${req.method} ${req.url}`)
     }
     
 })
