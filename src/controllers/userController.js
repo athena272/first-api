@@ -19,7 +19,7 @@ function getUserById(req, res) {
     const user = users.find((user) => user.id === Number(id))
 
     if (!user) {
-        res.send(400, { errorMessage: 'User not found' })
+        return res.send(400, { errorMessage: 'User not found' })
 
     }
 
