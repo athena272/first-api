@@ -10,10 +10,8 @@ function listUsers(req, res) {
         return a.id > b.id ? 1 : -1
     })
 
-    res.writeHead(200, {
-        'Content-Type': 'application/json'
-    })
-    res.end(JSON.stringify(sortedUsers))
+    res.send(200, sortedUsers)
+
 }
 
 function getUserById(req, res) {
@@ -21,15 +19,11 @@ function getUserById(req, res) {
     const user = users.find((user) => user.id === Number(id))
 
     if (!user) {
-        res.writeHead(400, {
-            'Content-Type': 'application/json'
-        })
-        res.end(JSON.stringify({ errorMessage: 'User not found' }))
+        res.send(400, { errorMessage: 'User not found' })
+
     } else {
-        res.writeHead(200, {
-            'Content-Type': 'application/json'
-        })
-        res.end(JSON.stringify(user))
+        res.send(200, user)
+
     }
 }
 
