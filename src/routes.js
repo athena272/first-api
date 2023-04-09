@@ -12,7 +12,7 @@ module.exports = [
         handler: getUserById
     },
     {
-        endpoint: '/users/',
+        endpoint: '/users',
         method: 'POST',
         handler: createUser
     },
