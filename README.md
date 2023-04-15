@@ -21,3 +21,11 @@ node src/index.js
 
 
 ## List Users
+![image](https://user-images.githubusercontent.com/58920070/232242509-08ee50da-c3b4-4ca2-ab2e-d69a506fce41.png)
+
+# List User By Id
+![image](https://user-images.githubusercontent.com/58920070/232242543-8934d469-e7c5-4342-b7eb-bf288ba191b0.png)
+
+# List Users OrderDesc
+![image](https://user-images.githubusercontent.com/58920070/232242658-880303b7-f712-44ab-871d-434367fe401c.png)
+
