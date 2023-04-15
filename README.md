@@ -17,7 +17,7 @@ Abra o terminal na pasta do projeto e execute o seguinte comando para rodar o pr
 ```bash
 node src/index.js
 ```
-![image](https://user-images.githubusercontent.com/58920070/232242176-3599f76c-4bb9-43df-b29e-90d571fbc5aa.png)
+![image](https://user-images.githubusercontent.com/58920070/232243701-c0905ba8-6600-455c-927e-ba715780e2c2.png)
 
 
 ## List Users
@@ -28,4 +28,18 @@ node src/index.js
 
 # List Users OrderDesc
 ![image](https://user-images.githubusercontent.com/58920070/232242658-880303b7-f712-44ab-871d-434367fe401c.png)
+
+# Create User
+![image](https://user-images.githubusercontent.com/58920070/232243964-62823978-a5fc-4608-a671-73c32c248690.png)
+![image](https://user-images.githubusercontent.com/58920070/232244034-1706f241-e701-46ba-85b9-2b074ac9b9e1.png)
+
+# Update User
+![image](https://user-images.githubusercontent.com/58920070/232244517-f5caed12-99a4-4c19-8ba7-a3b88040f512.png)
+![image](https://user-images.githubusercontent.com/58920070/232244578-9957d9e2-09a5-4531-92da-3b7afc22ebdb.png)
+
+# Delete User
+![image](https://user-images.githubusercontent.com/58920070/232244702-d320fd00-4113-4fb1-8181-3ce18ecd8033.png)
+![image](https://user-images.githubusercontent.com/58920070/232244709-45cbb4db-359d-41fa-ab04-49322eed6027.png)
+
+
 
