@@ -5,15 +5,15 @@ users = [
     },
     {
         id: 2,
-        name: 'Deborah'
+        name: 'Camila'
     },
     {
         id: 3,
-        name: 'Victor'
+        name: 'Maria'
     },
     {
         id: 4,
-        name: 'Pedra Verde'
+        name: 'Pedro'
     }
 ]
 
