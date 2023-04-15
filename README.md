@@ -13,7 +13,7 @@ Este projeto é uma excelente opção para desenvolvedores iniciantes que deseja
 ## Como executar
 
 Clone este repositório em sua máquina local.
-Abra o terminal na pasta do projeto e execute o comando para baixar os pacotes e dependências para os projetos
+Abra o terminal na pasta do projeto e execute o seguinte comando para rodar o projeto
 ```bash
 node src/index.js
 ```
