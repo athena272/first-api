@@ -9,6 +9,9 @@ Este projeto é uma excelente opção para desenvolvedores iniciantes que deseja
 - Javascript <img align="center" alt="Gui-Js" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"> 
 - NodeJS <img align="center" alt="Gui-NodeJs" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
          
+## Progressão do projeto
+![image](https://user-images.githubusercontent.com/58920070/232341113-2803dc8d-772c-453d-b054-e481d801b837.png)
+
 
 ## Como executar
 
