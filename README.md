@@ -1,4 +1,7 @@
 # First API NodeJs
+
+## Sobre o projeto 
+
 Este repositório contém um projeto de API simples desenvolvido em Node.js, sem a utilização de nenhum pacote externo como o Express ou qualquer outro framework. A API é focada em operações CRUD (Create, Read, Update, Delete) para a gestão de usuários.
 
 Este projeto é uma excelente opção para desenvolvedores iniciantes que desejam aprender e praticar os conceitos básicos de criação de APIs em Node.js, utilizando apenas os recursos nativos do Node. 
